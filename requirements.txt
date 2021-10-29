@@ -1,1 +1,4 @@
-UltraUX==1.9.21
+Telethon
+python-dotenv
+asyncio
+TgCrypto

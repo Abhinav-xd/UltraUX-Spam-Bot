@@ -14,19 +14,19 @@ requirements = [
 
 setuptools.setup(
     #Here is the module name.
-    name="OpUstad",
+    name="UltraUX",
  
     #version of the module
     version="1.9.21",
  
     #Name of Author
-    author="Ustad-Op",
+    author="DV-OP",
  
     #your Email address
     author_email="jtatagaga@gmail.com",
  
     #Small Description about module
-    description="OpUstad",
+    description="UltraUX",
  
     long_description=long_description,
  

@@ -10,66 +10,76 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # Basics
 APP_ID = config("APP_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-BOT_TOKEN2 = config("BOT_TOKEN2", default=None)
-BOT_TOKEN3 = config("BOT_TOKEN3", default=None)
-BOT_TOKEN4 = config("BOT_TOKEN4", default=None)
-BOT_TOKEN5 = config("BOT_TOKEN5", default=None)
-BOT_TOKEN6 = config("BOT_TOKEN6", default=None)
-BOT_TOKEN7 = config("BOT_TOKEN7", default=None)
-BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
-BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
+BOT_TOKEN01 = config("BOT_TOKEN01", default=None)
+BOT_TOKEN02 = config("BOT_TOKEN02", default=None)
+BOT_TOKEN03 = config("BOT_TOKEN03", default=None)
+BOT_TOKEN04 = config("BOT_TOKEN04", default=None)
+BOT_TOKEN05 = config("BOT_TOKEN05", default=None)
+BOT_TOKEN06 = config("BOT_TOKEN06", default=None)
+BOT_TOKEN07 = config("BOT_TOKEN07", default=None)
+BOT_TOKEN08 = config("BOT_TOKEN08", default=None)
+BOT_TOKEN09 = config("BOT_TOKEN09", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
+BOT_TOKEN11 = config("BOT_TOKEN11", default=None)
+BOT_TOKEN12 = config("BOT_TOKEN12", default=None)
+BOT_TOKEN13 = config("BOT_TOKEN13", default=None)
+BOT_TOKEN14 = config("BOT_TOKEN14", default=None)
+BOT_TOKEN15 = config("BOT_TOKEN15", default=None)
+BOT_TOKEN16 = config("BOT_TOKEN16", default=None)
+BOT_TOKEN17 = config("BOT_TOKEN17", default=None)
+BOT_TOKEN18 = config("BOT_TOKEN18", default=None)
+BOT_TOKEN19 = config("BOT_TOKEN19", default=None)
+BOT_TOKEN20 = config("BOT_TOKEN20", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 
-if BOT_TOKEN:
- UstaD = TelegramClient('UstaD', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+if BOT_TOKEN010:
+ UstaD = TelegramClient('UltraUX01', APP_ID, API_HASH).start(bot_token=BOT_TOKEN01) 
 else:
     UstaD=None
 
-if BOT_TOKEN2:
-    UstaD2 = TelegramClient('UstaD2', APP_ID, API_HASH).start(bot_token=BOT_TOKEN2) 
+if BOT_TOKEN02:
+    UstaD2 = TelegramClient('UltraUX02', APP_ID, API_HASH).start(bot_token=BOT_TOKEN02) 
 else:
     UstaD2=None
 
-if BOT_TOKEN3:
- UstaD3 = TelegramClient('UstaD3', APP_ID, API_HASH).start(bot_token=BOT_TOKEN3) 
+if BOT_TOKEN03:
+ UstaD3 = TelegramClient('UltraUX03', APP_ID, API_HASH).start(bot_token=BOT_TOKEN03) 
 else:
     UstaD3=None
 
-if BOT_TOKEN4:
- UstaD4 = TelegramClient('UstaD4', APP_ID, API_HASH).start(bot_token=BOT_TOKEN4) 
+if BOT_TOKEN04:
+ UstaD4 = TelegramClient('UltraUX04', APP_ID, API_HASH).start(bot_token=BOT_TOKEN04) 
 else:
     UstaD4=None
 
-if BOT_TOKEN5:
-    UstaD5 = TelegramClient('UstaD5', APP_ID, API_HASH).start(bot_token=BOT_TOKEN5) 
+if BOT_TOKEN05:
+    UstaD5 = TelegramClient('UltraUX05', APP_ID, API_HASH).start(bot_token=BOT_TOKEN05) 
 else:
     UstaD5=None
 
-if BOT_TOKEN6:
-    UstaD6 = TelegramClient('UstaD6', APP_ID, API_HASH).start(bot_token=BOT_TOKEN6) 
+if BOT_TOKEN06:
+    UstaD6 = TelegramClient('UltraUX06', APP_ID, API_HASH).start(bot_token=BOT_TOKEN06) 
 else:
     UstaD6=None
 
-if BOT_TOKEN7:
-    UstaD7 = TelegramClient('UstaD7', APP_ID, API_HASH).start(bot_token=BOT_TOKEN7) 
+if BOT_TOKEN07:
+    UstaD7 = TelegramClient('UltraUX07', APP_ID, API_HASH).start(bot_token=BOT_TOKEN07) 
 else:
     UstaD7=None
 
-if BOT_TOKEN8:
-     UstaD8 = TelegramClient('UstaD8', APP_ID, API_HASH).start(bot_token=BOT_TOKEN8) 
+if BOT_TOKEN08:
+     UstaD8 = TelegramClient('UltraUX08', APP_ID, API_HASH).start(bot_token=BOT_TOKEN08) 
 else:
     UstaD8=None
 
-if BOT_TOKEN9:
- UstaD9 = TelegramClient('UstaD9', APP_ID, API_HASH).start(bot_token=BOT_TOKEN9) 
+if BOT_TOKEN09:
+ UstaD9 = TelegramClient('UltraUX09', APP_ID, API_HASH).start(bot_token=BOT_TOKEN09) 
 else:
     UstaD9=None
 
 if BOT_TOKEN10:
- UstaD10 = TelegramClient('UstaD10', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
+ UstaD10 = TelegramClient('UltraUX010', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
 else:
     UstaD10=None
 

@@ -34,54 +34,105 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 
 if BOT_TOKEN010:
- UstaD = TelegramClient('UltraUX01', APP_ID, API_HASH).start(bot_token=BOT_TOKEN01) 
+ UltraUX01 = TelegramClient('UltraUX01', APP_ID, API_HASH).start(bot_token=BOT_TOKEN01) 
 else:
-    UstaD=None
+    UltraUX01=None
 
 if BOT_TOKEN02:
-    UstaD2 = TelegramClient('UltraUX02', APP_ID, API_HASH).start(bot_token=BOT_TOKEN02) 
+ UltraUX02 = TelegramClient('UltraUX02', APP_ID, API_HASH).start(bot_token=BOT_TOKEN02) 
 else:
-    UstaD2=None
+    UltraUX02=None
 
 if BOT_TOKEN03:
- UstaD3 = TelegramClient('UltraUX03', APP_ID, API_HASH).start(bot_token=BOT_TOKEN03) 
+ UltraUX03 = TelegramClient('UltraUX03', APP_ID, API_HASH).start(bot_token=BOT_TOKEN03) 
 else:
-    UstaD3=None
+    UltraUX03=None
 
 if BOT_TOKEN04:
- UstaD4 = TelegramClient('UltraUX04', APP_ID, API_HASH).start(bot_token=BOT_TOKEN04) 
+ UltraUX04 = TelegramClient('UltraUX04', APP_ID, API_HASH).start(bot_token=BOT_TOKEN04) 
 else:
-    UstaD4=None
+    UltraUX04=None
 
 if BOT_TOKEN05:
-    UstaD5 = TelegramClient('UltraUX05', APP_ID, API_HASH).start(bot_token=BOT_TOKEN05) 
+ UltraUX05 = TelegramClient('UltraUX05', APP_ID, API_HASH).start(bot_token=BOT_TOKEN05) 
 else:
-    UstaD5=None
+    UltraUX05=None
 
 if BOT_TOKEN06:
-    UstaD6 = TelegramClient('UltraUX06', APP_ID, API_HASH).start(bot_token=BOT_TOKEN06) 
+ UltraUX06 = TelegramClient('UltraUX06', APP_ID, API_HASH).start(bot_token=BOT_TOKEN06) 
 else:
-    UstaD6=None
+    UltraUX06=None
 
 if BOT_TOKEN07:
-    UstaD7 = TelegramClient('UltraUX07', APP_ID, API_HASH).start(bot_token=BOT_TOKEN07) 
+ UltraUX07 = TelegramClient('UltraUX07', APP_ID, API_HASH).start(bot_token=BOT_TOKEN07) 
 else:
-    UstaD7=None
+    UltraUX07=None
 
 if BOT_TOKEN08:
-     UstaD8 = TelegramClient('UltraUX08', APP_ID, API_HASH).start(bot_token=BOT_TOKEN08) 
+     UltraUX08 = TelegramClient('UltraUX08', APP_ID, API_HASH).start(bot_token=BOT_TOKEN08) 
 else:
-    UstaD8=None
+    UltraUX08=None
 
 if BOT_TOKEN09:
- UstaD9 = TelegramClient('UltraUX09', APP_ID, API_HASH).start(bot_token=BOT_TOKEN09) 
+ UltraUX09 = TelegramClient('UltraUX09', APP_ID, API_HASH).start(bot_token=BOT_TOKEN09) 
 else:
-    UstaD9=None
+    UltraUX09=None
 
 if BOT_TOKEN10:
- UstaD10 = TelegramClient('UltraUX010', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
+ UltraUX10 = TelegramClient('UltraUX010', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
 else:
-    UstaD10=None
+   UltraUX10=None
+
+if BOT_TOKEN11:
+    UltraUX11 = TelegramClient('UltraUX11', APP_ID, API_HASH).start(bot_token=BOT_TOKEN11)
+else:
+    UltraUX11=None
+    
+if BOT_TOKEN12:
+    UltraUX12 = TelegramClient('UltraUX12', APP_ID, API_HASH).start(bot_token=BOT_TOKEN12) 
+else:
+    UltraUX12=None
+    
+if BOT_TOKEN13:
+    UltraUX13 = TelegramClient('UltraUX13', APP_ID, API_HASH).start(bot_token=BOT_TOKEN13) 
+else:
+    UltraUX13=None
+    
+if BOT_TOKEN14:
+    UltraUX14 = TelegramClient('UltraUX14', APP_ID, API_HASH).start(bot_token=BOT_TOKEN14) 
+else:
+    UltraUX14=None
+    
+if BOT_TOKEN15:
+    UltraUX15 = TelegramClient('UltraUX15', APP_ID, API_HASH).start(bot_token=BOT_TOKEN15) 
+else:
+    UltraUX15=None
+    
+if BOT_TOKEN16:
+    UltraUX16 = TelegramClient('UltraUX16', APP_ID, API_HASH).start(bot_token=BOT_TOKEN16) 
+else:
+    UltraUX16=None
+    
+if BOT_TOKEN17:
+    UltraUX17 = TelegramClient('UltraUX17', APP_ID, API_HASH).start(bot_token=BOT_TOKEN17) 
+else:
+    UltraUX17=None
+    
+if BOT_TOKEN18:
+    UltraUX18 = TelegramClient('UltraUX18', APP_ID, API_HASH).start(bot_token=BOT_TOKEN18) 
+else:
+    UltraUX18=None
+    
+if BOT_TOKEN19:
+    UltraUX19 = TelegramClient('UltraUX19', APP_ID, API_HASH).start(bot_token=BOT_TOKEN19) 
+else:
+    UltraUX19=None
+    
+if BOT_TOKEN20:
+    UltraUX20 = TelegramClient('UltraUX20', APP_ID, API_HASH).start(bot_token=BOT_TOKEN20) 
+else:
+    UltraUX20=None
+    
 
 RAID = [
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",

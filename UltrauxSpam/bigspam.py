@@ -4,7 +4,7 @@ import os
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get\
-from UltraUX import UltraUX01, UltraUX02, UltraUX03, UltraUX04, UltraUX05, UltraUX06, UltraUX07, UltraUX08, UltraUX09, UltraUX10, UltraUX11, UltraUX12, UltraUX13, UltraUX14, UltraUX15, UltraUX16, UltraUX17, UltraUX18, UltraUX19, UltraUX20, SUDO_USERS
+from OpUstad import UltraUX01, UltraUX02, UltraUX03, UltraUX04, UltraUX05, UltraUX06, UltraUX07, UltraUX08, UltraUX09, UltraUX10, UltraUX11, UltraUX12, UltraUX13, UltraUX14, UltraUX15, UltraUX16, UltraUX17, UltraUX18, UltraUX19, UltraUX20, SUDO_USERS
 
 async def gifspam(e, smex):
     try:

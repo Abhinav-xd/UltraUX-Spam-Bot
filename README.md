@@ -12,4 +12,4 @@
 ## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - [Assasin](https://t.me/assasinx1)
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinu090907/UltraUX-Spam-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noob-dv/UltraUX-Spam-Bot)

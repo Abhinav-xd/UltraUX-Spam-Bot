@@ -25,47 +25,47 @@
         "value": "",
         "required": true
       },
-      "BOT_TOKEN1": {
+      "BOT_TOKEN01": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": true
       },
-      "BOT_TOKEN2": {
+      "BOT_TOKEN02": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN3": {
+      "BOT_TOKEN03": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN4": {
+      "BOT_TOKEN04": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN5": {
+      "BOT_TOKEN05": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN6": {
+      "BOT_TOKEN06": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN7": {
+      "BOT_TOKEN07": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN8": {
+      "BOT_TOKEN08": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false
       },
-      "BOT_TOKEN9": {
+      "BOT_TOKEN09": {
         "description": "Bot token, get it from @BotFather",
         "value": "",
         "required": false

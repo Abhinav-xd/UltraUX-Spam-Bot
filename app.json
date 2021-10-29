@@ -1,0 +1,91 @@
+{
+    "name": "UltraUX Spam Bot",
+    "description": "Best Spamming Bots | Bot father spam bot | Join Us @ultraux_official for Any Support and Updates",
+    "logo": "https://telegra.ph/file/bddf4d5b779d7fabe6671.jpg",
+    "keywords": [
+        "telegram",
+        "UltraUX",
+        "telethon",
+        "telegram-bot",
+        "Botfather",
+        "SpamBots",
+        "Botfather-spambots"
+    ],
+    "repository": "https://github.com/dinu090907/UltraUX-Spam-Bot",
+    "website": "https://t.me/digvijaysingh178",
+    "success_url": "https://t.me/assasinx1",
+    "env": {
+      "API_HASH": {
+        "description": "Your APP HASH , get it from my.telegram.org",
+        "value": "",
+        "required": true 
+      },
+      "APP_ID": {
+        "description": "Your APP ID , get it from my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN1": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN2": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN3": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN4": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN5": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN6": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN7": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN8": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN9": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      
+      },
+      "BOT_TOKEN10": {
+        "description": "Bot token, get it from @BotFather",
+        "value": "",
+        "required": false
+      
+      },
+       "SUDO_USERS": {
+        "description": "sudo Users Id",
+        "value": "",
+        "required": true
+      }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

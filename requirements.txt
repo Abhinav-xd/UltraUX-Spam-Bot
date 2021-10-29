@@ -1,4 +1,1 @@
-Telethon
-python-dotenv
-asyncio
-TgCrypto
+UltraUX==1.9.21

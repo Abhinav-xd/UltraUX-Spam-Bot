@@ -8,13 +8,13 @@ import inspect
 import re
 
 def load_plugins(plugin_name):
-    path = Path(f"Deadly/{plugin_name}.py")
-    name = "Deadly.{}".format(plugin_name)
+    path = Path(f"UltraUX/{plugin_name}.py")
+    name = "UltraUX.{}".format(plugin_name)
     spec = importlib.util.spec_from_file_location(name, path)
     load = importlib.util.module_from_spec(spec)
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
-    sys.modules["Deadly." + plugin_name] = load
+    sys.modules["UltraUX." + plugin_name] = load
     print("SpamBots has Imported " + plugin_name)
 
 async def edit_or_reply(event, text):

@@ -1,1 +1,1 @@
-UltraUX: python -m UltraUX
+UltraUX: python -m UltrauxSpam
